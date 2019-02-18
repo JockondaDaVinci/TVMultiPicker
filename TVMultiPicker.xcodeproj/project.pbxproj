@@ -49,11 +49,8 @@
 /* Begin PBXFileReference section */
 		9748EC7D1F387F0B002FC776 /* UIColor+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
 		9748EC851F388A39002FC776 /* MultiPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPickerTests.swift; sourceTree = "<group>"; };
-		9748EC871F388A39002FC776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97B6C6371F4AD68100BFC7A4 /* MultiPickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPickerDemoUITests.swift; sourceTree = "<group>"; };
-		97B6C6391F4AD68100BFC7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97C372D31F337834009BFB3B /* TVMultiPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVMultiPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97C372D71F337834009BFB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97C372DF1F3378BE009BFB3B /* HorizontalStringCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStringCollectionView.swift; sourceTree = "<group>"; };
 		97C372E01F3378BE009BFB3B /* HorizontalStringCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStringCollectionViewCell.swift; sourceTree = "<group>"; };
 		97C372E11F3378BE009BFB3B /* HorizontalStringCollectionUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStringCollectionUtilities.swift; sourceTree = "<group>"; };
@@ -68,7 +65,6 @@
 		97EF05561F47397D0023643B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97EF05581F47397D0023643B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		97EF055D1F47397E0023643B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97EF055F1F47397E0023643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +100,6 @@
 				9748EC851F388A39002FC776 /* MultiPickerTests.swift */,
 				97EF052E1F4719E40023643B /* DatePickerTests.swift */,
 				97EF052C1F47198D0023643B /* DateUtilitiesTests.swift */,
-				9748EC871F388A39002FC776 /* Info.plist */,
 			);
 			path = TVMultiPickerTests;
 			sourceTree = "<group>";
@@ -113,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				97B6C6371F4AD68100BFC7A4 /* MultiPickerDemoUITests.swift */,
-				97B6C6391F4AD68100BFC7A4 /* Info.plist */,
 			);
 			path = TVMultiPickerDemoUITests;
 			sourceTree = "<group>";
@@ -145,7 +139,6 @@
 				97C372E51F3378CE009BFB3B /* Core */,
 				97C372EA1F3378EC009BFB3B /* Components */,
 				9748EC7C1F387EFF002FC776 /* Extensions */,
-				97C372D71F337834009BFB3B /* Info.plist */,
 			);
 			path = TVMultiPicker;
 			sourceTree = "<group>";
@@ -193,7 +186,6 @@
 				97EF05561F47397D0023643B /* AppDelegate.swift */,
 				97EF05581F47397D0023643B /* MainViewController.swift */,
 				97EF055D1F47397E0023643B /* Assets.xcassets */,
-				97EF055F1F47397E0023643B /* Info.plist */,
 			);
 			path = TVMultiPickerDemo;
 			sourceTree = "<group>";
@@ -453,7 +445,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TVMultiPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ingemark.TVMultiPicker;
@@ -475,7 +466,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TVMultiPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ingemark.TVMultiPicker;
@@ -493,7 +483,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 67F9L7ZQQV;
-				INFOPLIST_FILE = TVMultiPickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ingemark.TVMultiPickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,7 +498,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 67F9L7ZQQV;
-				INFOPLIST_FILE = TVMultiPickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ingemark.TVMultiPickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
