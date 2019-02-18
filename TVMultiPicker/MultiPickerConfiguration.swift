@@ -66,6 +66,42 @@ public struct MultiPickerConfiguration {
         normalFont: .systemFont(ofSize: 40)
     )
     
+    public init(
+        backgroundColor: UIColor,
+        cellPadding: CGFloat,
+        pickerWidth: CGFloat,
+        pickerHeight: CGFloat,
+        topOffset: CGFloat,
+        offsetBetweenPickers: CGFloat,
+        unfocusedPickerAlphaValue: CGFloat,
+        focusedPickerAlphaValue: CGFloat,
+        doneButtonText: String,
+        doneButtonBottomOffset: Int,
+        focusedTextColor: UIColor,
+        focusedBgColor: UIColor,
+        focusedFont: UIFont,
+        normalTextColor: UIColor,
+        normalBgColor: UIColor,
+        normalFont: UIFont
+        ) {
+        self.backgroundColor = backgroundColor
+        self.cellPadding = cellPadding
+        self.pickerHeight = pickerHeight
+        self.pickerWidth = pickerWidth
+        self.topOffset = topOffset
+        self.offsetBetweenPickers = offsetBetweenPickers
+        self.unfocusedPickerAlphaValue = unfocusedPickerAlphaValue
+        self.focusedPickerAlphaValue = focusedPickerAlphaValue
+        self.doneButtonText = doneButtonText
+        self.doneButtonBottomOffset = doneButtonBottomOffset
+        self.focusedTextColor = focusedTextColor
+        self.focusedBgColor = focusedBgColor
+        self.focusedFont = focusedFont
+        self.normalTextColor = normalTextColor
+        self.normalBgColor = normalBgColor
+        self.normalFont = normalFont
+    }
+    
     let backgroundColor: UIColor
     
     let cellPadding: CGFloat
